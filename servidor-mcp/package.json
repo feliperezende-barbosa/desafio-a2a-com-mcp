@@ -1,0 +1,17 @@
+{
+  "name": "servidor-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor MCP (Streamable HTTP) com as ferramentas das salas da Hill Valley Tech",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/servidor.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "zod": "4.6.7"
+  }
+}

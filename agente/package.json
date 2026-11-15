@@ -1,0 +1,12 @@
+{
+  "name": "agente",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agente A2A (servidor) que consome o servidor MCP das salas (host MCP)",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node src/agente.mjs" },
+  "dependencies": {
+    "@modelcontextprotocol/client": "2.4.0"
+  }
+}
